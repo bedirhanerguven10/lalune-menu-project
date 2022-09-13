@@ -100,7 +100,7 @@ const menu = [
       title: "Limonlu Cheesecake",
       category: 'Cheesecake',
       price: 38,
-      img: '',
+      img: 'https://cdn.yemek.com/mnresize/1250/833/uploads/2022/06/limonlu-cheesecake-serap.jpg',
       desc: ``
     },
       {
@@ -108,7 +108,7 @@ const menu = [
       title: "Frambuazlı Cheesecake",
       category: 'Cheesecake',
       price: 38,
-      img: '',
+      img: 'https://www.happyhourorganizasyon.com/uploads/urun/b/frambuazli-cheesecake-dilim-160-g.png',
       desc: ``,
     },
      {
@@ -116,7 +116,7 @@ const menu = [
       title: "Yabanmersinli Cheesecake",
       category: 'Cheesecake',
       price: 38,
-      img: '',
+      img: 'https://tarifist.com/back_end/images/tarifler/yaban_mersinli_cheesecake.webp',
       desc: ``,
     },
      {
@@ -124,7 +124,7 @@ const menu = [
       title: "Lotuslu Cheesecake",
       category: 'Cheesecake',
       price: 38,
-      img: '',
+      img: 'https://res.cloudinary.com/dbrkydxfc/images/f_auto,q_auto:eco/w_2560,h_2560/v1627155970/lotus/lotus.jpg',
       desc: ``,
     },
      {
@@ -132,7 +132,7 @@ const menu = [
       title: "Çikolatalı Cheesecake",
       category: 'Cheesecake',
       price: 38,
-      img: '',
+      img: 'https://renklihobi.com/wp-content/uploads/cikolatali-cheesecake-tarifi-.jpg',
       desc: ``,
     },
      {
@@ -140,7 +140,7 @@ const menu = [
       title: "Makaron",
       category: 'Atıştırmalıklar',
       price: 10,
-      img: '',
+      img: 'https://iasbh.tmgrup.com.tr/d8fe22/800/420/0/129/1024/669?u=https://isbh.tmgrup.com.tr/sbh/2020/03/12/rengarenk-makaron-tarifi-makaron-nasil-yapilir-1584021891966.jpg',
       desc: ``,
     },
     {
@@ -148,7 +148,7 @@ const menu = [
       title: "Dark Chocalate Cookie",
       category: 'Atıştırmalıklar',
       price: 20,
-      img: '',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMz3CrmP8YdigsCk3VdnOvH4iqEHmvMaoTMFg9MfFttRgSuQiV4UGVC_zRyuD1pKB4Pc&usqp=CAU',
       desc: ``,
     },
     {
@@ -156,7 +156,7 @@ const menu = [
       title: "Üç Çikolatalı Cookie",
       category: 'Atıştırmalıklar',
       price: 20,
-      img: '',
+      img: 'https://i.elele.com.tr/2/1280/720/storage/files/images/2021/11/18/tripple-cookie-Mtgg_cover.jpg',
       desc: ``,
     },
     {
@@ -164,23 +164,16 @@ const menu = [
       title: "Tuzlu Kurabiye",
       category: 'Atıştırmalıklar',
       price: 25,
-      img: '',
+      img: 'https://cdn.yemek.com/mncrop/940/625/uploads/2020/09/sirkeli-tuzlu-kurabiye-bayatlamayan-yemekcom.jpg',
       desc: ``,
     },
-    {
-        id: 22,
-      title: "Makaron",
-      category: 'Atıştırmalıklar',
-      price: 10,
-      img: '',
-      desc: ``,
-    },
+   
     {
         id: 23,
       title: "Sebastian",
       category: 'Sıcak Sunumlar',
       price: 40,
-      img: '',
+      img: 'https://limondilimi.com.tr/images/products/san-sebastian-cheesecake_000005',
       desc: `Belçika çikolatası ile servis edilir.`,
     },
        {
@@ -188,7 +181,7 @@ const menu = [
       title: "Lune Green",
       category: 'Sıcak Sunumlar',
       price: 40,
-      img: '',
+      img: './images/LuneGreen.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
     },
           {
@@ -196,7 +189,7 @@ const menu = [
       title: "Paris Brest",
       category: 'Sıcak Sunumlar',
       price: 40,
-      img: '',
+      img: './images/Paris Brest.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
     },
              {
@@ -204,7 +197,7 @@ const menu = [
       title: "Lune Velvet",
       category: 'Sıcak Sunumlar',
       price: 40,
-      img: '',
+      img: './images/Lune Velvet.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
     },
                 {
@@ -212,7 +205,7 @@ const menu = [
       title: "Lune Çikolata",
       category: 'Sıcak Sunumlar',
       price: 40,
-      img: '',
+      img: './images/Lune Çikolata.jpg',
       desc: `Belçika çikolatası ile servis edilir.`,
     },
                    {
@@ -220,7 +213,7 @@ const menu = [
       title: "Brownie",
       category: 'Sıcak Sunumlar',
       price: 40,
-      img: '',
+      img: './images/Brownie.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
     },
                       {
@@ -228,7 +221,7 @@ const menu = [
       title: "Çilekli Tart",
       category: 'Sıcak Sunumlar',
       price: 40,
-      img: '',
+      img: './images/Çilek Tart.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
     },
                         {

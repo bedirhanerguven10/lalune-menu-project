@@ -45,9 +45,21 @@
     align-items: center;
   }
 
+
+
     .menu-container img {
       height: 150px;
       max-width: 150px;
       object-fit: cover;
     }
+}
+@media screen and (max-width: 480px) {
+  .info p {
+      width: 230px;
+    }
+   .menu-container img {
+    height: 120px;
+    max-width: 110px;
+    object-fit: cover;
+   }
 }
