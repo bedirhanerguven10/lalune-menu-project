@@ -22,3 +22,11 @@
   height: 0.3rem;
   background-color: #50786d;
 }
+@media (min-width: 300px) {
+  .header-container h1 {
+    flex-wrap: nowrap;
+    
+    line-height: 2.8rem;
+    
+  }
+}
