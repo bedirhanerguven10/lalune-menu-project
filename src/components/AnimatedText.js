@@ -7,7 +7,7 @@ const AnimatedText = () => {
     <MovingText
     style={{color:"#50786D",fontWeight:"bold",letterSpacing:"3px",fontSize:"1.4rem",paddingLeft:"5px", marginBottom:"10px"}}
     className="movingtext"
-      type="jelly"
+      type="fadeIn"
       duration="5000ms"
       delay="0s"
       direction="normal"

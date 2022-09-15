@@ -31,9 +31,11 @@
 }
 .category-button {
   padding: 0px 5px;
+  margin: 0px 5px;
 }
 .scroll {
   -webkit-overflow-scrolling: touch;
+  
     
    
 }
