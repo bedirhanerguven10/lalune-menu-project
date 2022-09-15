@@ -6,7 +6,7 @@ const Categories = ({ categ, filterItems,id}) => {
   console.log(id);
   console.log(categ);
   return (
-    <HorizontalScroll>
+    <HorizontalScroll className="scroll">
       {categ.map((categoryItem, index) => {
         
         return( 

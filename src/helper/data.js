@@ -389,7 +389,7 @@ const menu = [
       {
         id: 49,
       title: "Türk Kahvesi",
-      category: './images/geleneksel kahve.png',
+      category: './images/GELENEKSEL KAHVE.png',
       price: 18,
       img: '',
       desc: ``,
@@ -397,7 +397,7 @@ const menu = [
     {
         id: 50,
       title: "Menengiç Kahvesi",
-      category: './images/geleneksel kahve.png',
+      category: './images/GELENEKSEL KAHVE.png',
       price: 20,
       img: '',
       desc: ``,
@@ -405,7 +405,7 @@ const menu = [
     {
         id: 51,
       title: "Dibek Kahvesi",
-      category: './images/geleneksel kahve.png',
+      category: './images/GELENEKSEL KAHVE.png',
       price: 20,
       img: '',
       desc: ``,
@@ -493,7 +493,7 @@ const menu = [
     {
         id: 61,
       title: "Çilekli Smoothie ",
-      category: './images/smoothie.png',
+      category: './images/SMOOTHIE.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -501,7 +501,7 @@ const menu = [
     {
         id: 62,
       title: "Mango Smoothie ",
-      category: './images/smoothie.png',
+      category: './images/SMOOTHIE.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -509,7 +509,7 @@ const menu = [
     {
         id: 63,
       title: "Orman Meyveli Smoothie ",
-      category: './images/smoothie.png',
+      category: './images/SMOOTHIE.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -517,7 +517,7 @@ const menu = [
     {
         id: 64,
       title: "Kavun & Ananas Smoothie ",
-      category: './images/smoothie.png',
+      category: './images/SMOOTHIE.png',
       price: 30.75,
       img: '',
       desc: ``,
