@@ -21,6 +21,17 @@
   color: #fff;
   text-decoration: underline 2px white;
 }
+.category {
+  border-radius: 5px;
+  width: 120px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  background-color: #50786d;
+}
+.category-button {
+  padding: 0px 5px;
+}
 
 @media (min-width: 350px) {
   .btn-container {

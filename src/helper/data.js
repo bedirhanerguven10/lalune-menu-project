@@ -1,8 +1,10 @@
 const menu = [
+ 
+
     {
       id: 1,
       title: '3 Peynirli',
-      category: 'tuzlu kruvasan',
+      category: './images/TUZLU Kruvasan.png',
       price: 60,
       img: './images/ucpeynir.jpeg',
       desc: `Kruvasan arasında çedar, çeçil suda mozarella ve scrambled egg, peynirli köz patlıcan, biber sos, grill zeytin, domates ve salatalık ile servis edilir. `,
@@ -10,7 +12,7 @@ const menu = [
     {
       id: 2,
       title: "La'Lune Pesto",
-      category: 'tuzlu kruvasan',
+      category: './images/TUZLU Kruvasan.png',
       price: 60,
       img: './images/pesto.jpg',
       desc: `Kruvasan arasında pesto sos, mozarella, scrambled egg, köz patlıcan, biber sos, grill zeytin, domates ve salatalık ile servis edilir. `,
@@ -18,7 +20,7 @@ const menu = [
     {
       id: 3,
       title: 'Avokadolu Egg Boat',
-      category: 'tuzlu kruvasan',
+      category: './images/TUZLU Kruvasan.png',
       price: 60,
       img: './images/avokadolueggboat.jpg',
       desc: `Scrambled egg ve avokado dip sos, zaytin, domates ve salatalık ile servis edilir.`
@@ -26,7 +28,7 @@ const menu = [
     {
       id: 4,
       title: "La'Lune Frankfurter",
-      category: 'tuzlu kruvasan',
+      category: './images/TUZLU Kruvasan.png',
       price: 70,
       img: './images/frankfurter.jpg',
       desc: `Kruvasan arasında dana frankfurter sosis, scrambled egg, cheddar peyniri, turşu sos yanında grill zeytin, avokado dip sos, domates ve salatalık ile servis edilir. `,
@@ -34,7 +36,7 @@ const menu = [
     {
       id: 5,
       title: 'füme roast beef',
-      category: 'tuzlu kruvasan',
+      category: './images/TUZLU Kruvasan.png',
       price: 60,
       img: './images/fumeroastbeef.jpg',
       desc: `Kruvasan arasında scrambled egg, füme et yanında grill zeytin, avokado dip sos, domates ve salatalık ile servis edilir. `,
@@ -42,7 +44,7 @@ const menu = [
     {
       id: 6,
       title: "La'Lune Lotus",
-      category: 'tatlı kruvasan',
+      category: './images/TATLI Kruvasan.png',
       price: 55,
       img: './images/lotus.jpg',
       desc: `Kruvasan arasında Lotus kreması yanında muz, çilek ve file badem ile servis edilir.`,
@@ -50,7 +52,7 @@ const menu = [
     {
       id: 7,
       title: "La'Lune Strawberry",
-      category: 'tatlı kruvasan',
+      category: './images/TATLI Kruvasan.png',
       price: 55,
       img: './images/strawberry.jpg',
       desc: `Kruvasan arasında pastacı kreması, çilek ve fıstık ile servis edilir. `,
@@ -58,7 +60,7 @@ const menu = [
     {
       id: 8,
       title: "La'Lune Berry",
-      category: 'tatlı kruvasan',
+      category: './images/TATLI Kruvasan.png',
       price: 60,
       img: './images/berry.jpg',
       desc: `Kruvasan arasında orman meyveli pastacı kreması, file badem ve çikolata ile servis edilir.  `,
@@ -66,7 +68,7 @@ const menu = [
     {
       id: 9,
       title: "La'Lune Lime",
-      category: 'tatlı kruvasan',
+      category: './images/TATLI Kruvasan.png',
       price: 55,
       img: './images/lime.jpg',
       desc: `Kruvasan arasında lime limonlu pastacı kreması, beyaz çikolata ile servis edilir.`,
@@ -74,7 +76,7 @@ const menu = [
     {
         id: 10,
       title: "La'Lune Fıstık",
-      category: 'tatlı kruvasan',
+      category: './images/TATLI Kruvasan.png',
       price: 60,
       img: './images/fıstık.jpg',
       desc: `Kruvasan arasında fıstık kreması ve çikolata ile servis edilir.`,
@@ -82,7 +84,7 @@ const menu = [
     {
         id: 11,
       title: "La'Lune Dark",
-      category: 'tatlı kruvasan',
+      category: './images/TATLI Kruvasan.png',
       price: 60,
       img: './images/dark.jpg',
       desc: `Dark kakaolu badem marzipan kavrulmuş badem ve bitter çikolata ile servis edilir.`,
@@ -90,7 +92,7 @@ const menu = [
     {
         id: 12,
       title: "La'Lune Ruby",
-      category: 'tatlı kruvasan',
+      category: './images/TATLI Kruvasan.png',
       price: 60,
       img: './images/rubby.jpg',
       desc: `Krem patisserie frambuaz ve ruby çikolatanın efsanevi uyumu.`,
@@ -98,7 +100,7 @@ const menu = [
    {
         id: 13,
       title: "Limonlu Cheesecake",
-      category: 'Cheesecake',
+      category: './images/Cheescake.png',
       price: 38,
       img: 'https://cdn.yemek.com/mnresize/1250/833/uploads/2022/06/limonlu-cheesecake-serap.jpg',
       desc: ``
@@ -106,7 +108,7 @@ const menu = [
       {
         id: 14,
       title: "Frambuazlı Cheesecake",
-      category: 'Cheesecake',
+      category: './images/Cheescake.png',
       price: 38,
       img: 'https://www.happyhourorganizasyon.com/uploads/urun/b/frambuazli-cheesecake-dilim-160-g.png',
       desc: ``,
@@ -114,7 +116,7 @@ const menu = [
      {
         id: 15,
       title: "Yabanmersinli Cheesecake",
-      category: 'Cheesecake',
+      category: './images/Cheescake.png',
       price: 38,
       img: 'https://tarifist.com/back_end/images/tarifler/yaban_mersinli_cheesecake.webp',
       desc: ``,
@@ -122,7 +124,7 @@ const menu = [
      {
         id: 16,
       title: "Lotuslu Cheesecake",
-      category: 'Cheesecake',
+      category: './images/Cheescake.png',
       price: 38,
       img: 'https://res.cloudinary.com/dbrkydxfc/images/f_auto,q_auto:eco/w_2560,h_2560/v1627155970/lotus/lotus.jpg',
       desc: ``,
@@ -130,7 +132,7 @@ const menu = [
      {
         id: 17,
       title: "Çikolatalı Cheesecake",
-      category: 'Cheesecake',
+      category: './images/Cheescake.png',
       price: 38,
       img: 'https://renklihobi.com/wp-content/uploads/cikolatali-cheesecake-tarifi-.jpg',
       desc: ``,
@@ -138,7 +140,7 @@ const menu = [
      {
         id: 18,
       title: "Makaron",
-      category: 'Atıştırmalıklar',
+      category: './images/Atıştırmalıklar.png',
       price: 10,
       img: 'https://iasbh.tmgrup.com.tr/d8fe22/800/420/0/129/1024/669?u=https://isbh.tmgrup.com.tr/sbh/2020/03/12/rengarenk-makaron-tarifi-makaron-nasil-yapilir-1584021891966.jpg',
       desc: ``,
@@ -146,7 +148,7 @@ const menu = [
     {
         id: 19,
       title: "Dark Chocalate Cookie",
-      category: 'Atıştırmalıklar',
+      category: './images/Atıştırmalıklar.png',
       price: 20,
       img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMz3CrmP8YdigsCk3VdnOvH4iqEHmvMaoTMFg9MfFttRgSuQiV4UGVC_zRyuD1pKB4Pc&usqp=CAU',
       desc: ``,
@@ -154,7 +156,7 @@ const menu = [
     {
         id: 20,
       title: "Üç Çikolatalı Cookie",
-      category: 'Atıştırmalıklar',
+      category: './images/Atıştırmalıklar.png',
       price: 20,
       img: 'https://i.elele.com.tr/2/1280/720/storage/files/images/2021/11/18/tripple-cookie-Mtgg_cover.jpg',
       desc: ``,
@@ -162,16 +164,16 @@ const menu = [
     {
         id: 21,
       title: "Tuzlu Kurabiye",
-      category: 'Atıştırmalıklar',
+      category: './images/Atıştırmalıklar.png',
       price: 25,
       img: 'https://cdn.yemek.com/mncrop/940/625/uploads/2020/09/sirkeli-tuzlu-kurabiye-bayatlamayan-yemekcom.jpg',
       desc: ``,
     },
-   
+ 
     {
         id: 23,
       title: "Sebastian",
-      category: 'Sıcak Sunumlar',
+      category: './images/Sıcak Sunumlar.png',
       price: 40,
       img: 'https://limondilimi.com.tr/images/products/san-sebastian-cheesecake_000005',
       desc: `Belçika çikolatası ile servis edilir.`,
@@ -179,7 +181,7 @@ const menu = [
        {
         id: 24,
       title: "Lune Green",
-      category: 'Sıcak Sunumlar',
+      category: './images/Sıcak Sunumlar.png',
       price: 40,
       img: './images/LuneGreen.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
@@ -187,7 +189,7 @@ const menu = [
           {
         id: 25,
       title: "Paris Brest",
-      category: 'Sıcak Sunumlar',
+      category: './images/Sıcak Sunumlar.png',
       price: 40,
       img: './images/Paris Brest.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
@@ -195,7 +197,7 @@ const menu = [
              {
         id: 26,
       title: "Lune Velvet",
-      category: 'Sıcak Sunumlar',
+      category: './images/Sıcak Sunumlar.png',
       price: 40,
       img: './images/Lune Velvet.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
@@ -203,7 +205,7 @@ const menu = [
                 {
         id: 27,
       title: "Lune Çikolata",
-      category: 'Sıcak Sunumlar',
+      category: './images/Sıcak Sunumlar.png',
       price: 40,
       img: './images/Lune Çikolata.jpg',
       desc: `Belçika çikolatası ile servis edilir.`,
@@ -211,7 +213,7 @@ const menu = [
                    {
         id: 28,
       title: "Brownie",
-      category: 'Sıcak Sunumlar',
+      category: './images/Sıcak Sunumlar.png',
       price: 40,
       img: './images/Brownie.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
@@ -219,7 +221,7 @@ const menu = [
                       {
         id: 29,
       title: "Çilekli Tart",
-      category: 'Sıcak Sunumlar',
+      category: './images/Sıcak Sunumlar.png',
       price: 40,
       img: './images/Çilek Tart.jpeg',
       desc: `Belçika çikolatası ile servis edilir.`,
@@ -227,7 +229,7 @@ const menu = [
                         {
         id: 30,
       title: "Vişneli Muss Pasta",
-      category: 'Pasta Çeşitleri',
+      category: './images/Pasta Çeşitleri.png',
       price: 40,
       img: '',
       desc: ``,
@@ -235,7 +237,7 @@ const menu = [
                        {
         id: 31,
       title: "Çikolatalı Orman Meyveli Pasta",
-      category: 'Pasta Çeşitleri',
+      category: './images/Pasta Çeşitleri.png',
       price: 40,
       img: '',
       desc: ``,
@@ -243,7 +245,7 @@ const menu = [
                        {
         id: 32,
       title: "Double Çikolatalı Pasta",
-      category: 'Pasta Çeşitleri',
+      category: './images/Pasta Çeşitleri.png',
       price: 40,
       img: '',
       desc: ``,
@@ -251,7 +253,7 @@ const menu = [
                                               {
         id: 33,
       title: "Elmalı Tart",
-      category: 'Pasta Çeşitleri',
+      category: './images/Pasta Çeşitleri.png',
       price: 35,
       img: '',
       desc: ``,
@@ -259,7 +261,7 @@ const menu = [
                        {
         id: 34,
       title: "Dolce Peach",
-      category: 'Pasta Çeşitleri',
+      category: './images/Pasta Çeşitleri.png',
       price: 40,
       img: '',
       desc: ``,
@@ -267,7 +269,7 @@ const menu = [
                        {
         id: 35,
       title: "Budapeşte",
-      category: 'Pasta Çeşitleri',
+      category: './images/Pasta Çeşitleri.png',
       price: 40,
       img: '',
       desc: ``,
@@ -275,7 +277,7 @@ const menu = [
                           {
         id: 36,
       title: "Pavlova",
-      category: 'Pasta Çeşitleri',
+      category: './images/Pasta Çeşitleri.png',
       price: 35,
       img: '',
       desc: ``,
@@ -283,7 +285,7 @@ const menu = [
                        {
         id: 37,
       title: "Espresso",
-      category: 'Sıcak Kahveler',
+      category: './images/Sıcak Kahveler.png',
       price: 15,
       img: '',
       desc: ``,
@@ -291,7 +293,7 @@ const menu = [
                      {
         id: 38,
       title: "Americano",
-      category: 'Sıcak Kahveler',
+      category: './images/Sıcak Kahveler.png',
       price: 24,
       img: '',
       desc: ``,
@@ -299,7 +301,7 @@ const menu = [
                      {
         id: 39,
       title: "Caffe Latte",
-      category: 'Sıcak Kahveler',
+      category: './images/Sıcak Kahveler.png',
       price: 24,
       img: '',
       desc: ``,
@@ -307,7 +309,7 @@ const menu = [
                      {
         id: 40,
       title: "Flat White",
-      category: 'Sıcak Kahveler',
+      category: './images/Sıcak Kahveler.png',
       price: 28,
       img: '',
       desc: ``,
@@ -315,7 +317,7 @@ const menu = [
                      {
         id: 41,
       title: "Double Espresso",
-      category: 'Sıcak Kahveler',
+      category: './images/Sıcak Kahveler.png',
       price: 21,
       img: '',
       desc: ``,
@@ -323,7 +325,7 @@ const menu = [
                      {
         id: 42,
       title: "Cortado",
-      category: 'Sıcak Kahveler',
+      category: './images/Sıcak Kahveler.png',
       price: 28,
       img: '',
       desc: ``,
@@ -331,7 +333,7 @@ const menu = [
                      {
         id: 43,
       title: "Filtre Kahve",
-      category: 'Sıcak Kahveler',
+      category: './images/Sıcak Kahveler.png',
       price: 28.75,
       img: '',
       desc: ``,
@@ -339,7 +341,7 @@ const menu = [
                      {
         id: 44,
       title: "Sütlü Filtre Kahve",
-      category: 'Sıcak Kahveler',
+      category: './images/Sıcak Kahveler.png',
       price: 30,
       img: '',
       desc: ``,
@@ -347,7 +349,7 @@ const menu = [
                      {
         id: 37,
       title: "Cappucino",
-      category: 'Sıcak Kahveler',
+      category: './images/Sıcak Kahveler.png',
       price: 27,
       img: '',
       desc: ``,
@@ -355,7 +357,7 @@ const menu = [
                      {
         id: 45,
       title: "Sweet Latte",
-      category: 'Özel Kahveler',
+      category: './images/Özel Kahveler.png',
       price: 29,
       img: '',
       desc: `Böğürtlen , Fındık , Vanilya`,
@@ -363,7 +365,7 @@ const menu = [
                                           {
         id: 46,
       title: "White Mocha",
-      category: 'Özel Kahveler',
+      category: './images/Özel Kahveler.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -371,7 +373,7 @@ const menu = [
       {
         id: 47,
       title: "Irish Mocha",
-      category: 'Özel Kahveler',
+      category: './images/Özel Kahveler.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -379,7 +381,7 @@ const menu = [
             {
         id: 48,
       title: "White Berry Mocha",
-      category: 'Özel Kahveler',
+      category: './images/Özel Kahveler.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -387,7 +389,7 @@ const menu = [
       {
         id: 49,
       title: "Türk Kahvesi",
-      category: 'Geleneksel Kahveler',
+      category: './images/geleneksel kahve.png',
       price: 18,
       img: '',
       desc: ``,
@@ -395,7 +397,7 @@ const menu = [
     {
         id: 50,
       title: "Menengiç Kahvesi",
-      category: 'Geleneksel Kahveler',
+      category: './images/geleneksel kahve.png',
       price: 20,
       img: '',
       desc: ``,
@@ -403,7 +405,7 @@ const menu = [
     {
         id: 51,
       title: "Dibek Kahvesi",
-      category: 'Geleneksel Kahveler',
+      category: './images/geleneksel kahve.png',
       price: 20,
       img: '',
       desc: ``,
@@ -411,7 +413,7 @@ const menu = [
     {
         id: 52,
       title: "Demleme Çay",
-      category: 'Sıcak İçecekler',
+      category: './images/Sıcak İçecekler.png',
       price: 8,
       img: '',
       desc: ``,
@@ -419,7 +421,7 @@ const menu = [
     {
         id: 53,
       title: "Demleme Fincan Çay",
-      category: 'Sıcak İçecekler',
+      category: './images/Sıcak İçecekler.png',
       price: 8,
       img: '',
       desc: ``,
@@ -427,7 +429,7 @@ const menu = [
     {
         id: 54,
       title: "Demleme Fincan Çay",
-      category: 'Sıcak İçecekler',
+      category: './images/Sıcak İçecekler.png',
       price: 14,
       img: '',
       desc: ``,
@@ -435,7 +437,7 @@ const menu = [
     {
         id: 55,
       title: "Hot Chocalate",
-      category: 'Sıcak İçecekler',
+      category: './images/Sıcak İçecekler.png',
       price: 20,
       img: '',
       desc: ``,
@@ -443,7 +445,7 @@ const menu = [
     {
         id: 56,
       title: "Chai Tea Latte",
-      category: 'Sıcak İçecekler',
+      category: './images/Sıcak İçecekler.png',
       price: 25,
       img: '',
       desc: ``,
@@ -451,7 +453,7 @@ const menu = [
     {
         id: 57,
       title: "Sahlep",
-      category: 'Sıcak İçecekler',
+      category: './images/Sıcak İçecekler.png',
       price: 24,
       img: '',
       desc: ``,
@@ -459,7 +461,7 @@ const menu = [
     {
         id: 58,
       title: "Çilekli Cooler ",
-      category: 'Cooler',
+      category: './images/Cooler.png',
       price: 28.75,
       img: '',
       desc: ``,
@@ -467,7 +469,7 @@ const menu = [
     {
         id: 59,
       title: "Mango Cooler",
-      category: 'Cooler',
+      category: './images/Cooler.png',
       price: 28.75,
       img: '',
       desc: ``,
@@ -475,7 +477,7 @@ const menu = [
     {
         id: 60,
       title: "Orman Meyveli Cooler",
-      category: 'Cooler',
+      category: './images/Cooler.png',
       price: 28.75,
       img: '',
       desc: ``,
@@ -483,7 +485,7 @@ const menu = [
     {
         id: 60,
       title: "Kavun & Ananas Cooler",
-      category: 'Cooler',
+      category: './images/Cooler.png',
       price: 28.75,
       img: '',
       desc: ``,
@@ -491,7 +493,7 @@ const menu = [
     {
         id: 61,
       title: "Çilekli Smoothie ",
-      category: 'Smoothie',
+      category: './images/smoothie.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -499,7 +501,7 @@ const menu = [
     {
         id: 62,
       title: "Mango Smoothie ",
-      category: 'Smoothie',
+      category: './images/smoothie.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -507,7 +509,7 @@ const menu = [
     {
         id: 63,
       title: "Orman Meyveli Smoothie ",
-      category: 'Smoothie',
+      category: './images/smoothie.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -515,7 +517,7 @@ const menu = [
     {
         id: 64,
       title: "Kavun & Ananas Smoothie ",
-      category: 'Smoothie',
+      category: './images/smoothie.png',
       price: 30.75,
       img: '',
       desc: ``,
@@ -523,7 +525,7 @@ const menu = [
     {
         id: 65,
       title: "Limonata ",
-      category: 'Soğuk İçecekler',
+      category: './images/Soğuk İçecekler.png',
       price: 22,
       img: '',
       desc: ``,
@@ -531,7 +533,7 @@ const menu = [
     {
         id: 66,
       title: "Limonata Mint ",
-      category: 'Soğuk İçecekler',
+      category: './images/Soğuk İçecekler.png',
       price: 25,
       img: '',
       desc: ``,
@@ -539,7 +541,7 @@ const menu = [
     {
         id: 67,
       title: "Limonata Berry ",
-      category: 'Soğuk İçecekler',
+      category: './images/Soğuk İçecekler.png',
       price: 25,
       img: '',
       desc: ``,
@@ -547,7 +549,7 @@ const menu = [
     {
         id: 68,
       title: "Ice Lune ",
-      category: 'Soğuk İçecekler',
+      category: './images/Soğuk İçecekler.png',
       price: 28.25,
       img: '',
       desc: ``,
@@ -555,7 +557,7 @@ const menu = [
     {
         id: 69,
       title: "Elderflavor ",
-      category: 'Soğuk İçecekler',
+      category: './images/Soğuk İçecekler.png',
       price: 26.75,
       img: '',
       desc: ``,
@@ -563,7 +565,7 @@ const menu = [
     {
         id: 70,
       title: "Berry Hibiscus ",
-      category: 'Soğuk İçecekler',
+      category: './images/Soğuk İçecekler.png',
       price: 28.25,
       img: '',
       desc: ``,
@@ -571,7 +573,7 @@ const menu = [
     {
         id: 70,
       title: "Cool Lime ",
-      category: 'Soğuk İçecekler',
+      category: './images/Soğuk İçecekler.png',
       price: 28.25,
       img: '',
       desc: ``,
@@ -579,7 +581,7 @@ const menu = [
     {
         id: 71,
       title: "Mango Lime ",
-      category: 'Soğuk İçecekler',
+      category: './images/Soğuk İçecekler.png',
       price: 28.25,
       img: '',
       desc: ``,
@@ -587,7 +589,7 @@ const menu = [
     {
         id: 72,
       title: "Ice Americano ",
-      category: 'Soğuk Kahveler',
+      category: './images/Soğuk Kahveler.png',
       price: 25.5,
       img: '',
       desc: ``,
@@ -595,7 +597,7 @@ const menu = [
     {
         id: 73,
       title: "Ice Latte ",
-      category: 'Soğuk Kahveler',
+      category: './images/Soğuk Kahveler.png',
       price: 25.5,
       img: '',
       desc: ``,
@@ -603,7 +605,7 @@ const menu = [
     {
         id: 74,
       title: "Ice Filtre Kahve ",
-      category: 'Soğuk Kahveler',
+      category: './images/Soğuk Kahveler.png',
       price: 30.25,
       img: '',
       desc: ``,
@@ -611,7 +613,7 @@ const menu = [
     {
         id: 75,
       title: "Ice Sütlü Filtre Kahve",
-      category: 'Soğuk Kahveler',
+      category: './images/Soğuk Kahveler.png',
       price: 31.75,
       img: '',
       desc: ``,
@@ -619,7 +621,7 @@ const menu = [
     {
         id: 76,
       title: "Ice Sweet Latte",
-      category: 'Özel Kahveler',
+      category: './images/Özel Kahveler.png',
       price: 30.50,
       img: '',
       desc: `Böğürtlen , Fındık , Vanilya`,
@@ -627,7 +629,7 @@ const menu = [
                                           {
         id: 77,
       title: "Ice White Mocha",
-      category: 'Özel Kahveler',
+      category: './images/Özel Kahveler.png',
       price: 32.25,
       img: '',
       desc: ``,
@@ -635,7 +637,7 @@ const menu = [
       {
         id: 78,
       title: "Ice Irish Mocha",
-      category: 'Özel Kahveler',
+      category: './images/Özel Kahveler.png',
       price: 32.25,
       img: '',
       desc: ``,
@@ -643,7 +645,7 @@ const menu = [
             {
         id: 79,
       title: "Ice White Berry Mocha",
-      category: 'Özel Kahveler',
+      category: './images/Özel Kahveler.png',
       price: 32.25,
       img: '',
       desc: ``,
@@ -651,7 +653,7 @@ const menu = [
     {
         id: 80,
       title: "Menekşe",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -659,7 +661,7 @@ const menu = [
     {
         id: 81,
       title: "Çikolata",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -667,7 +669,7 @@ const menu = [
     {
         id: 82,
       title: "Sade",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -675,7 +677,7 @@ const menu = [
     {
         id: 83,
       title: "Çilek",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -683,7 +685,7 @@ const menu = [
     {
         id: 84,
       title: "Şeftali",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -691,7 +693,7 @@ const menu = [
     {
         id: 85,
       title: "Vişne",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -699,7 +701,7 @@ const menu = [
     {
         id: 86,
       title: "Kavun",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -707,7 +709,7 @@ const menu = [
     {
         id: 87,
       title: "Mango",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -715,7 +717,7 @@ const menu = [
     {
         id: 88,
       title: "Snickers",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -723,7 +725,7 @@ const menu = [
     {
         id: 89,
       title: "Yoğurt",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -731,7 +733,7 @@ const menu = [
     {
         id: 90,
       title: "İtalyan Karameli",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -739,7 +741,7 @@ const menu = [
     {
         id: 91,
       title: "Meksika Vanilyası",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -747,7 +749,7 @@ const menu = [
     {
         id: 92,
       title: "Limon",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -755,7 +757,7 @@ const menu = [
     {
         id: 93,
       title: "Lime",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -763,7 +765,7 @@ const menu = [
     {
         id: 94,
       title: "Ceviz",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -771,7 +773,7 @@ const menu = [
     {
         id: 95,
       title: "Fındık",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -779,7 +781,7 @@ const menu = [
     {
         id: 96,
       title: "Yaban Mersini",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -787,7 +789,7 @@ const menu = [
     {
         id: 97,
       title: "Böğürtlen",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
@@ -795,7 +797,7 @@ const menu = [
     {
         id: 98,
       title: "Hindistan Cevizi",
-      category: 'Dondurma',
+      category: './images/Dondurma.png',
       price: 11,
       img: '',
       desc: ``,
